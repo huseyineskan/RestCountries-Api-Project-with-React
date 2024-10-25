@@ -1,5 +1,5 @@
 # RestCountries Api Project with React
 
-We pull country information from the free API.
+We get country information using the https://restcountries.com/v3.1/all API.
 
 ## Description
