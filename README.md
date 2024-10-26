@@ -10,7 +10,7 @@ We pull information from 250 countries using the free API https://restcountries.
 
 ![Uygulama Ekran Görüntüsü](https://github.com/huseyineskan/RestCountries-Api-Project-with-React/blob/main/src/assets/RestCountries-api.png)
 
-### Api Obj Example
+### Response Example
 
 ```
 {
