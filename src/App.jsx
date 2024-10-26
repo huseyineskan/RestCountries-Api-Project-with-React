@@ -103,22 +103,24 @@ function App() {
                 </div>
                 <div className="col-12">
                   <label>Maps:</label>
-                  <p>
-                    <a
-                      className="d-grid"
-                      href={selectedCountryDetails.maps.googleMaps}
-                      target="_blank"
-                    >
-                      Google Maps
-                    </a>
-                    <a
-                      className="d-grid"
-                      href={selectedCountryDetails.maps.openStreetMaps}
-                      target="_blank"
-                    >
-                      Open Street Maps
-                    </a>
-                  </p>
+                  <div>
+                    <div>
+                      <a
+                        href={selectedCountryDetails.maps.googleMaps}
+                        target="_blank"
+                      >
+                        Google Maps
+                      </a>
+                    </div>
+                    <div>
+                      <a
+                        href={selectedCountryDetails.maps.openStreetMaps}
+                        target="_blank"
+                      >
+                        Open Street Maps
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
